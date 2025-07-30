@@ -14,7 +14,7 @@ This is a simple implementation of the classic **Tic-Tac-Toe** game for two play
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5** – Game board and structure
 - **CSS3** – Styling, layout, shadows, and responsiveness
@@ -44,7 +44,7 @@ cd tic-tac-toe
 
 ---
 
-## 🕹️ How to Play
+## How to Play
 
 1. **Player 1** starts with `O`.
 2. Players take turns clicking on empty squares.
@@ -56,13 +56,13 @@ cd tic-tac-toe
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ **Responsive layout** for desktop and mobile
-- 🎯 **Automatic win/draw detection**
-- 🔁 **One-click reset**
-- 💡 **Visual feedback for game state**
-- 🎨 **Clean and minimal design**
+- **Responsive layout** for desktop and mobile
+- **Automatic win/draw detection**
+- **One-click reset**
+- **Visual feedback for game state**
+- **Clean and minimal design**
 
 ---
 
