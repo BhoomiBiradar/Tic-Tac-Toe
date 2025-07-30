@@ -1,38 +1,78 @@
 # Tic-Tac-Toe Game
 
-## Introduction
-This is a simple implementation of the classic Tic-Tac-Toe game using HTML, CSS, and JavaScript. The game allows two players to take turns marking spaces on a 3x3 grid with their respective symbols (O and X). The first player to successfully align three of their symbols horizontally, vertically, or diagonally wins the game. If all spaces on the grid are filled without a winner, the game is considered a draw.
+This is a simple implementation of the classic **Tic-Tac-Toe** game for two players. Players alternate turns to place `O` and `X` on a 3×3 grid. The first player to get three of their marks in a row (vertically, horizontally, or diagonally) wins. If all spaces are filled without a winner, it's a **draw**.
 
-## Demo
-You can play the game live .
-Simply double-click on the index.html file, and it should open in your default web browser.
-Start playing!
+---
 
-## Game Instructions
-- The game starts with Player 1 (O) making the first move.
-- Players take turns clicking on empty spaces to mark them with their symbol.
-- The game automatically checks for a winner after each move.
-- If a winning pattern is found, the game declares the winner and ends.
-- If all spaces are filled without a winner, the game declares a draw.
-- Click the "New game" button to start a new game at any time.
-- Click the "Reset Game" button to reset the current game and start over.
+## Preview
 
-## Features
-- Responsive design: The game is playable on both desktop and mobile devices.
-- Visual feedback: Winning moves and the game result are displayed with a message.
-- Easy restart: Players can start a new game or reset the current game with dedicated buttons.
-- Minimalistic design: The game interface is clean and intuitive for easy gameplay.
+> Here's how the interface looks:
 
-## Technologies Used
-- HTML5: Structure of the game interface.
-- CSS3: Styling and layout of the game elements.
-- JavaScript: Logic for game mechanics and interactivity.
+![Game Screenshot](./assets/preview1.png)
 
-## File Structure
-- `index.html`: Main HTML file containing the game structure and elements.
-- `style.css`: CSS file for styling the game interface.
-- `app.js`: JavaScript file containing the game logic and functionality.
+> _Minimalist design, smooth hover effects, and responsive layout.
 
-## Contributing
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or create a pull request. Let's make this Simon game even better together.
+---
 
+## 🛠️ Tech Stack
+
+- **HTML5** – Game board and structure
+- **CSS3** – Styling, layout, shadows, and responsiveness
+- **JavaScript** – Game logic (turns, win/draw detection, reset functionality)
+
+---
+
+## How to Run
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/bhoomibiradar/tic-tac-toe.git
+```
+
+2. **Navigate to project folder**:
+
+```bash
+cd tic-tac-toe
+```
+
+3. **Run with Live Server** *(recommended)*:
+   - Open with VS Code
+   - Right-click `index.html` → **Open with Live Server**
+
+4. **OR** simply double-click `index.html` to launch in your browser.
+
+---
+
+## 🕹️ How to Play
+
+1. **Player 1** starts with `O`.
+2. Players take turns clicking on empty squares.
+3. After each move:
+   - The board updates with the symbol.
+   - The game checks for a win or a draw.
+4. If a player wins or the game ends in a draw, a message is shown.
+5. Use the **Reset Game** button to start over.
+
+---
+
+## ✨ Features
+
+- ✅ **Responsive layout** for desktop and mobile
+- 🎯 **Automatic win/draw detection**
+- 🔁 **One-click reset**
+- 💡 **Visual feedback for game state**
+- 🎨 **Clean and minimal design**
+
+---
+
+## Author
+
+Made with ❤️ by [Bhoomi](https://github.com/bhoomibiradar)  
+[Portfolio Website](https://your-portfolio-link.com)
+
+---
+
+## License
+
+This project is open source and free to use for learning and personal use.
